@@ -6,7 +6,7 @@ def start_keyboard():
 
 
 def review_keyboard():
-    buttons = [[InlineKeyboardButton(text='Посмотреть отзывы', url='https://t.me/vispireviews'), InlineKeyboardButton(text='Оставить отзыв', callback_data='leave_review')], [InlineKeyboardButton(text='Вернуться', callback_data='back')]]
+    buttons = [[InlineKeyboardButton(text='Посмотреть отзывы', url='https://t.me/****'), InlineKeyboardButton(text='Оставить отзыв', callback_data='leave_review')], [InlineKeyboardButton(text='Вернуться', callback_data='back')]]
     return InlineKeyboardMarkup(inline_keyboard=buttons)
 
 
@@ -31,7 +31,7 @@ def back_purchase_button():
     return InlineKeyboardMarkup(inline_keyboard=buttons)
 
 def back_purchase_cards_button():
-    buttons = [[InlineKeyboardButton(text='Посмотреть расклады', url='https://t.me/+1vi__IASSadlN2My'), InlineKeyboardButton(text='Сделать заказ', callback_data='purchase')], [InlineKeyboardButton(text='Вернуться', callback_data='back')]]
+    buttons = [[InlineKeyboardButton(text='Посмотреть расклады', url='https://t.me/****'), InlineKeyboardButton(text='Сделать заказ', callback_data='purchase')], [InlineKeyboardButton(text='Вернуться', callback_data='back')]]
     return InlineKeyboardMarkup(inline_keyboard=buttons)
 
 def back_button():
