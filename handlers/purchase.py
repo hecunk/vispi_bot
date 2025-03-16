@@ -12,7 +12,7 @@ from aiogram.fsm.context import FSMContext
 
 @dis.callback_query(StateFilter(States.purchase_data_wait), F.data == 'purchase_handle')
 async def purchase_handle(callback: types.CallbackQuery, state: FSMContext, name: str, age: int, type: str, id: str):
-    await bt.send_message(723458129, f'''ВИКЕПО ПОЗДРАВЛЯЮ НОВАЯ ПОКУПКА!!!! 
+    await bt.send_message("id_of_vipo", f'''ВИКЕПО ПОЗДРАВЛЯЮ НОВАЯ ПОКУПКА!!!! 
 ИМЯ: {name},
 ДАТА РОЖДЕНИЯ: {age},
 ТИП ПОКУПКИ: {type},
